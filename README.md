@@ -19,3 +19,5 @@
 2. 配置 Tomcat, 并在 VM options 中填入 ```-Dfile.encoding=utf-8```
 
 ##### 启动并访问项目
+管理员账号: admin
+管理员密码: 1234567
