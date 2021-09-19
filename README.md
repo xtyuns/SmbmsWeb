@@ -1,12 +1,16 @@
 ## 项目简介
 本项目为 Java Web 原生项目, 采用 Servlet + JDBC 技术, 仅供入门学习
 
+![项目结构](./docs/smbms.png)
+
+
+
 
 ## 在 IDEA 中运行本项目
 ##### 首先使用 IDEA 打开本项目
 
 ##### 导入数据库
-将 smbms.sql 导入进数据库, 并在 ```src\main\resources\mysql.properties``` 文件中配置数据连接信息
+将 [smbms.sql](./src/main/resources/smbms.sql) 导入进数据库, 并在 ```src\main\resources\mysql.properties``` 文件中配置数据连接信息
 
 ##### 配置 Project Structure
 1. 打开 Project Structure ```(Ctrl + Alt + Shift + S)```
@@ -20,4 +24,5 @@
 
 ##### 启动并访问项目
 管理员账号: admin
+
 管理员密码: 1234567
